@@ -33,7 +33,7 @@ namespace Controllers
             services.ConfigureRepoManager();
             services.ConfigureBusinessLogic();
 
-            //services.AddAutoMapper(typeof(Startup));
+            //services.AddAutoMapper(typeof(Startup)); --AutoMapping profile to be configured...
 
             services.AddControllers();
         }

@@ -14,8 +14,7 @@ namespace Core
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            //modelBuilder.ApplyConfiguration(new CompanyConfiguration());
-            //modelBuilder.ApplyConfiguration(new EmployeeConfiguration());
+            
         }
 
         public DbSet<ProductTypes> ProductTypes { get; set; }
